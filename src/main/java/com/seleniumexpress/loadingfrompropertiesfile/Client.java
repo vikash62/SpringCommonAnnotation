@@ -8,7 +8,7 @@ public class Client {
 	 ApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
 		System.out.println("beans file loaded");
 		
-		 College college =  context.getBean("collegeBean",College.class);
+		 College college =  context.getBean("colBean",College.class);
 		 college.test();
 		 System.out.println("college obj is printed by spring " +college);
 		

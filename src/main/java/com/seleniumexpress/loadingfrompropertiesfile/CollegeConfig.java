@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.seleniumexpress.loadingfrompropertiesfile")
 public class CollegeConfig {
 	
-	@Bean
+	@Bean(name = "colBean" )
   public College collegeBean() {  //bean id
 	  College college = new College();
 	  return  college;

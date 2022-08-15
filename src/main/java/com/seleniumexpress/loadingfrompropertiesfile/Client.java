@@ -9,7 +9,7 @@ public class Client {
 		System.out.println("beans file loaded");
 		
 		 College college =  context.getBean("collegeBean",College.class);
-//		 college.cheating();
+		 college.test();
 		 System.out.println("college obj is printed by spring " +college);
 		
   }

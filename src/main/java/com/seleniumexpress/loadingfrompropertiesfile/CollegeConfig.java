@@ -12,7 +12,8 @@ public class CollegeConfig {
 	}
 	@Bean
   public College collegeBean() {  //bean id
-	  College college = new College(principleBean());
+	  College college = new College();
+	  college.setPrinciple(principleBean());
 	  return  college;
   }
 }

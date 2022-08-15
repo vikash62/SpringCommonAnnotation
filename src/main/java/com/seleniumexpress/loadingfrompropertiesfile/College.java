@@ -8,16 +8,21 @@ public class College {
 	
 	
 
-	public College(Principle principle) {
-
-		this.principle = principle;
-	}
+//	public College(Principle principle) {
+//
+//		this.principle = principle;
+//	}
 
 
 
 	public void test() {
 		System.out.println("testing");
 		principle.principleInfo();
+	}
+
+
+	public void setPrinciple(Principle principle) {
+		this.principle = principle;
 	}
   
 }
